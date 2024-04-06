@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +11,23 @@
             padding: 0;
             background-color: #f0f0f0;
         }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
         .container {
             width: 80%;
             margin: 0 auto;
@@ -18,24 +35,46 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         h1 {
-            text-align: center;
             color: #333;
         }
         p {
             color: #666;
             line-height: 1.6;
         }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>Meu Site</h1>
+</header>
+
+<nav>
+    <a href="#">Página Inicial</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+</nav>
+
 <div class="container">
-    <h1>Bem-vindo à Minha Página</h1>
-    <p>Esta é uma página HTML simples. Você pode adicionar mais conteúdo aqui.</p>
+    <h2>Sobre Nós</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat nisl ut ante varius efficitur. Vivamus sit amet leo a purus gravida vestibulum. Donec quis risus a risus vestibulum aliquam id in massa. Sed at aliquet velit. Sed ullamcorper eros et elit posuere, vel lobortis nisi eleifend. Nulla facilisi. In vitae velit leo. Fusce porta purus vel ante lacinia venenatis. Proin vitae quam id orci euismod tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam feugiat dapibus turpis, sit amet accumsan neque lobortis sit amet.</p>
 </div>
+
+<footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+</footer>
 
 </body>
 </html>
